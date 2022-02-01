@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.SearchFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/homeToolbar"
+            app:titleTextColor="@color/whiteColor"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:background="@color/whiteColor"
+            app:contentInsetStartWithNavigation="5dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+
+                <EditText
+                    android:id="@+id/searchEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingHorizontal="15dp"
+                    android:textSize="14sp"
+                    android:hint="Search news"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_background"
+                    />
+                <TextView
+                    android:id="@+id/searchButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Search"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/headlineText"
+                    android:paddingHorizontal="15dp"
+                    />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/searchRecyclerView"
+            />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchProgress"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/searchStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Your search did not have any results"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:textSize="14sp"
+            android:textColor="@color/greyColor"
+            android:fontFamily="@font/montserrat_medium"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
