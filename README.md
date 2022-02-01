@@ -10,10 +10,6 @@ Added pagination in News Fragment.
 
 
 <img src="https://user-images.githubusercontent.com/40288769/151929875-b9be93d2-4cb1-46d8-94f9-922fd0cb18ff.png" width="300" height="550">
-
-
-
-![Screenshot_20220201-125949](https://user-images.githubusercontent.com/40288769/151929875-b9be93d2-4cb1-46d8-94f9-922fd0cb18ff.png)
-![Screenshot_20220201-130427](https://user-images.githubusercontent.com/40288769/151930104-b7c908cd-c2a0-418e-adff-1d4274341605.png)
-![Screenshot_20220201-130722](https://user-images.githubusercontent.com/40288769/151930112-fee6e9bf-9018-4606-9116-9b3d0d6de3c5.png)
-![Screenshot_20220201-130727](https://user-images.githubusercontent.com/40288769/151930125-7df3d3ac-f593-4edb-8487-4f4a0d4d8608.png)
+<img src="https://user-images.githubusercontent.com/40288769/151930104-b7c908cd-c2a0-418e-adff-1d4274341605.png" width="300" height="550">
+<img src="https://user-images.githubusercontent.com/40288769/151930112-fee6e9bf-9018-4606-9116-9b3d0d6de3c5.png" width="300" height="550">
+<img src="https://user-images.githubusercontent.com/40288769/151930125-7df3d3ac-f593-4edb-8487-4f4a0d4d8608.png" width="300" height="550">
