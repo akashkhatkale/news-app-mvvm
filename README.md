@@ -10,3 +10,6 @@ Added pagination in News Fragment.
 
 
 
+
+![Screenshot_20220201-125949](https://user-images.githubusercontent.com/40288769/151929875-b9be93d2-4cb1-46d8-94f9-922fd0cb18ff.png)
+
