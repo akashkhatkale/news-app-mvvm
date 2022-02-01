@@ -9,7 +9,7 @@ Added pagination in News Fragment.
 5) Room database is used to store saved news on device locally.
 6) Used webview to sho the articles.
 
-News fragment
+News fragment: <br>
 <img src="https://user-images.githubusercontent.com/40288769/151929875-b9be93d2-4cb1-46d8-94f9-922fd0cb18ff.png" width="300" height="550">
 
 Search Fragment
